@@ -797,9 +797,10 @@ var GsapAnimations = {
       const innerSpan = sub.querySelector(".sub-text");
 
       gsap.set(innerSpan, {
-        width: 1,
-        display: "inline-block",
-        overflow: "hidden",
+      width: 0,
+      display: "inline-block",
+      whiteSpace: "nowrap",  
+      overflow: "hidden",
       });
 
       gsap.to(innerSpan, {

@@ -10610,7 +10610,7 @@ input[type=submit]:hover {
 
 .widget-area2 {
   position: relative;
-  padding: 145px 0 0;
+  padding: 50px 0 0;
 }
 @media (max-width: 1366px) {
   .widget-area2 {
@@ -37090,7 +37090,7 @@ blockquote {
 
 .choose-list {
   position: relative;
-  margin-bottom: 46px;
+  margin-bottom: 16px;
 }
 @media (max-width: 480px) {
   .choose-list {
@@ -39598,3 +39598,17 @@ blockquote {
           transform: rotate(90deg);
 }
 /*# sourceMappingURL=../maps/style.css.map */
+/* Ensure all testimonial text stays white */
+.sec-title.white .fa-star {
+  color: #f6c343;
+}
+.sec-title.white h2,
+.sec-title.white h4,
+.sec-title.white p,
+.sec-title.white span {
+  color: #fff;
+}
+.text-black {
+  color: var(--color-heading) !important;
+}
+
