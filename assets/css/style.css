@@ -7742,7 +7742,7 @@ input[type=submit]:hover {
 }
 .side-menu .sidebar-menu {
   padding: 50px 0;
-  margin: 109px 0;
+  margin: 10px 0;
 }
 .side-menu .ibt-btn-rounded {
   color: var(--color-content-white);
@@ -13160,7 +13160,7 @@ ul {
 
 .hero-sec-info2 {
   position: relative;
-  margin-top: 68px;
+  margin-top: 360px;
 }
 @media (max-width: 1440px) {
   .hero-sec-info2 {
