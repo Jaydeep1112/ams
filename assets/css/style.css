@@ -7742,7 +7742,7 @@ input[type=submit]:hover {
 }
 .side-menu .sidebar-menu {
   padding: 0;
-  margin: 10px 0;
+  margin: 30px 0;
 }
 .side-menu .ibt-btn-rounded {
   color: var(--color-content-white);
@@ -19567,11 +19567,12 @@ ul {
   }
 }
 .ser-content3 .title {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 40px;
   line-height: 45px;
   margin-bottom: 37px;
-  color: var(--color-heading);
+  color: var(--color-content-white);
+  text-shadow: 4px 4px 4px black;
   max-width: 376px;
 }
 @media (max-width: 820px) {
@@ -37940,7 +37941,7 @@ blockquote {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 40px;
+  margin-top: 30px;
   
 }
 .social-icon {
