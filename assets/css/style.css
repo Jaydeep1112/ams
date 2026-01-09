@@ -19571,7 +19571,7 @@ ul {
   font-size: 40px;
   line-height: 45px;
   margin-bottom: 37px;
-  color: var(--color-content-white);
+  color: var(--color-heading);
   max-width: 376px;
 }
 @media (max-width: 820px) {
