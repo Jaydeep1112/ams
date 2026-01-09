@@ -7718,7 +7718,7 @@ input[type=submit]:hover {
   color: var(--color-content-white);
   font-size: 12px;
   font-family: var(--font-secondary);
-  margin-bottom: 27px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -7738,10 +7738,10 @@ input[type=submit]:hover {
   color: var(--color-content-white);
   text-decoration: underline;
   display: block;
-  margin: 40px 0 80px;
+  margin: 30px 0 60px;
 }
 .side-menu .sidebar-menu {
-  padding: 50px 0;
+  padding: 0;
   margin: 10px 0;
 }
 .side-menu .ibt-btn-rounded {
@@ -10463,7 +10463,7 @@ input[type=submit]:hover {
   position: relative;
   font-weight: 500;
   line-height: 16px;
-  font-size: 16px;
+  font-size: 15px;
   display: inline-block;
   margin-bottom: 0;
   color: var(--color-content-white);
@@ -26799,7 +26799,7 @@ ul {
   font-weight: 600;
   color: var(--color-heading);
   display: inline-block;
-  max-width: 180px;
+  max-width: 200px;
   margin-left: 42px;
 }
 @media (max-width: 1025px) {
@@ -37976,7 +37976,7 @@ blockquote {
   position: relative;
 }
 .custom-form h2 {
-  font-size: 28px;
+  font-size: 32px;
   line-height: 40px;
   font-weight: 700;
   margin-bottom: 43px;
