@@ -8908,19 +8908,19 @@ input[type=submit]:hover {
 }
 .main-menu > ul li .sub-menu li a {
   position: relative;
-  color: var(--color-content-white) !important;
-  font-size: 17px;
-  text-transform: none;
-  text-decoration: none;
-  font-weight: 400;
-  text-align: left;
-  margin: 0 0 0 0;
-  padding: 10px 20px 10px 0;
-  vertical-align: top;
-  display: block;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  border: 0;
+    color: var(--color-content-white) !important;
+    font-size: 0.80rem;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 0 0 0;
+    padding: 10px 0px 10px 0;
+    vertical-align: top;
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 0;
 }
 .main-menu > ul li .sub-menu li a:hover {
   padding-left: 20px;
@@ -19405,6 +19405,7 @@ ul {
   margin-right: 20px;
   margin-bottom: 40px;
 }
+
 @media (max-width: 1440px) {
   .ser-card3 {
     height: 496px;
@@ -19428,22 +19429,28 @@ ul {
     height: 428px;
   }
 }
-.ser-card3::before {
+
+.ser-card3::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 91px;
-  height: 79px;
-  background-image: url(../images/service/ser-layer.png);
-  border-radius: 0 0 20px 0;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
+
+
 .ser-card3 > img {
   height: 100%;
   object-fit: cover;
   border-radius: 25px;
   object-position: center;
   width: 100%;
+  transition: filter 0.3s ease;
+}
+.ser-card3:hover > img {
+  filter: blur(3px);
 }
 .ser-card3 .ser-btn {
   right: 10px;
@@ -19541,11 +19548,11 @@ ul {
 
 .ser-content3 {
   position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 49px;
+    bottom: 1rem;
+    /* -webkit-transform: translateY(-50%); */
+    -ms-transform: translateY(-50%);
+    /* transform: translate(-50%, -50%); */
+    left: 1rem;
 }
 @media (max-width: 1440px) {
   .ser-content3 {
@@ -19568,12 +19575,11 @@ ul {
 }
 .ser-content3 .title {
   font-weight: 600;
-  font-size: 40px;
-  line-height: 45px;
-  margin-bottom: 37px;
-  color: var(--color-content-white);
-  text-shadow: 4px 4px 4px black;
-  max-width: 376px;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 0;
+    color: var(--color-content-white);
+    max-width: 376px;
 }
 @media (max-width: 820px) {
   .ser-content3 .title {
@@ -24751,6 +24757,82 @@ ul {
   padding-right: 33px;
   margin-bottom: 40px;
 }
+.industry-icon {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #F37021; 
+
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+.icon-logistics {
+  -webkit-mask-image: url("/assets/images/home-serv-icon/logistics.png");
+  mask-image: url("/assets/images/home-serv-icon/logistics.png");
+}
+
+.icon-retail {
+  -webkit-mask-image: url("/assets/images/home-serv-icon/retail.png");
+  mask-image: url("/assets/images/home-serv-icon/retail.png");
+}
+
+.icon-insurance {
+  -webkit-mask-image: url("/assets/images/home-serv-icon/insurance.png");
+  mask-image: url("/assets/images/home-serv-icon/insurance.png");
+}
+
+.icon-resources {
+  -webkit-mask-image: url("/assets/images/home-serv-icon/oil-platform.png");
+  mask-image: url("/assets/images/home-serv-icon/oil-platform.png");
+}
+
+.icon-it {
+  -webkit-mask-image: url("/assets/images/home-serv-icon/it-telecom.png");
+  mask-image: url("/assets/images/home-serv-icon/it-telecom.png");
+}
+
+.icon-pharma {
+  -webkit-mask-image: url("/assets/images/home-serv-icon/pharma.png");
+  mask-image: url("/assets/images/home-serv-icon/pharma.png");
+}
+
+.icon-banking {
+  -webkit-mask-image: url("/assets/images/home-serv-icon/transference.png");
+  mask-image: url("/assets/images/home-serv-icon/transference.png");
+}
+
+.icon-manufacturing {
+  -webkit-mask-image: url("/assets/images/home-serv-icon/manufacturing.png");
+  mask-image: url("/assets/images/home-serv-icon/manufacturing.png");
+}
+.industry-icon {
+  background-color:  #F37021;
+  transition: 0.3s ease;
+}
+.icon-box{
+  border: 2px solid #F37021;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.industry-item:hover .icon-box {
+  background-color: #F37021; 
+  border-color: #F37021;
+}
+
+.industry-item:hover .industry-icon {
+  background-color: #ffffff; 
+}
 @media (max-width: 1366px) {
   .feature-card {
     padding-right: 26px;
@@ -24770,13 +24852,14 @@ ul {
   height: 90px;
 }
 .feature-card .title {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 1.25;
   margin-bottom: 14px;
   color: var(--color-heading);
-  font-weight: 600;
+  font-weight: 700;
   font-family: var(--font-secondary);
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 @media (max-width: 1201px) {
   .feature-card .title {
@@ -30529,7 +30612,7 @@ ul {
 .swiper.brand .swiper-slide img,
 .swiper.brand2 .swiper-slide img,
 .swiper.brand2 .swiper-slide img {
-  opacity: 50%;
+
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   max-height: 100px;
