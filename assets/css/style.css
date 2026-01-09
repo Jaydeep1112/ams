@@ -1448,7 +1448,7 @@ textarea:-ms-input-placeholder {
   bottom: 15px;
   right: 15px;
   width: 50px;
-  height: 70px;
+  height: 50px;
   font-size: 13px;
   text-align: center;
   line-height: 70px;
@@ -9437,13 +9437,14 @@ input[type=submit]:hover {
 
 .sticky-active.is-sticky.v3,
 .sticky-active.is-sticky.v9 {
-  background-color: #0E1228;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
 }
 .sticky-active.is-sticky.v3 .header-menu-area,
 .sticky-active.is-sticky.v3 .header-menu-area3,
 .sticky-active.is-sticky.v9 .header-menu-area,
 .sticky-active.is-sticky.v9 .header-menu-area3 {
-  background-color: #0E1228 !important;
+  background-color: #ffffff;
 }
 .sticky-active.is-sticky.v3 a,
 .sticky-active.is-sticky.v9 a {
@@ -9451,7 +9452,7 @@ input[type=submit]:hover {
 }
 .sticky-active.is-sticky.v3 .menu-style1 > ul > li > a,
 .sticky-active.is-sticky.v9 .menu-style1 > ul > li > a {
-  color: var(--color-content-white);
+  color: var(--color-surface-dark-2)
 }
 .sticky-active.is-sticky.v3 .menu-style1 > ul > li > a:hover,
 .sticky-active.is-sticky.v9 .menu-style1 > ul > li > a:hover {
@@ -9461,7 +9462,7 @@ input[type=submit]:hover {
 .sticky-active.is-sticky.v3 .menu-style1 > ul > li > a::before,
 .sticky-active.is-sticky.v9 .menu-style1 > ul > li > a::before {
   -webkit-filter: brightness(9);
-          filter: brightness(9);
+          filter: brightness(1);
 }
 .sticky-active.is-sticky.v3 .menu-style1 > ul > li > .active,
 .sticky-active.is-sticky.v9 .menu-style1 > ul > li > .active {
@@ -10420,7 +10421,7 @@ input[type=submit]:hover {
   position: relative;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-content-white);
   margin-bottom: 12px;
   font-family: var(--font-secondary);
@@ -10461,9 +10462,9 @@ input[type=submit]:hover {
 }
 .footer-links ul li a {
   position: relative;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
-  font-size: 15px;
+  font-size: 14px;
   display: inline-block;
   margin-bottom: 0;
   color: var(--color-content-white);
@@ -10553,15 +10554,15 @@ input[type=submit]:hover {
 .footer-box p,
 .footer-box span {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 24px;
   display: inline-block;
   margin-bottom: 0;
-  color: #BEBEBE;
+  color: #ffffff;
 }
 .footer-box p a,
 .footer-box span a {
-  color: #BEBEBE;
+  color: #F37021;
   text-decoration: underline;
 }
 
@@ -10606,7 +10607,7 @@ input[type=submit]:hover {
 .footer-style2 .footer-box {
   position: relative;
   border-top: 1px solid #CBCBCB;
-  padding: 46px 0 37px;
+  padding: 20px 0 30px;
 }
 .footer-style2 .footer-botom {
   padding-bottom: 0;
@@ -10676,11 +10677,12 @@ input[type=submit]:hover {
   margin-bottom: 7px;
 }
 .contact-widget p {
-  font-weight: 500;
-  line-height: 30px;
+  font-weight: 700;
+  line-height: 28px;
   color: var(--color-content-white);
+  font-size: 14px;
   margin-bottom: 17px;
-  max-width: 229px;
+  max-width: 235px;
 }
 @media (max-width: 1025px) {
   .contact-widget p {
@@ -10690,16 +10692,16 @@ input[type=submit]:hover {
 .contact-widget .nmbr {
   display: block;
   color: var(--color-content-white);
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 700;
   line-height: 28px;
 }
 .contact-widget .nmbr:hover {
   color: #F37021;
 }
 .contact-widget .gmail {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
   color: var(--color-content-white);
   color: var(--color-content-white);
   display: inline-block;
@@ -37938,7 +37940,7 @@ blockquote {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 .social-icon li {
   margin: 0 35px 0 0;
