@@ -37941,15 +37941,40 @@ blockquote {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 40px;
+  
 }
+.social-icon {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
 .social-icon li {
-  margin: 0 35px 0 0;
+  margin: 0 12px 0 0;
 }
+
 .social-icon li:last-child {
   margin-right: 0;
 }
+
 .social-icon li a {
-  color: var(--color-content-white);
+  width: 38px;
+  height: 38px;
+  background: #f37021; 
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.social-icon li a:hover {
+  background: #ffffff;
+  color: #f37021;
+  border-color: #f37021;
 }
 
 .contact-form {
