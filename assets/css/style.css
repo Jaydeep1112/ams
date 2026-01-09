@@ -9346,7 +9346,7 @@ input[type=submit]:hover {
           filter: brightness(10);
 } */
 .vs-header2 .header-menu-area {
-  background-color: unset;
+  background: linear-gradient(45deg, rgb(114, 114, 114), transparent);
   padding-top: 20px;
   margin-top: 0;
 }
