@@ -38126,13 +38126,81 @@ blockquote {
   height: 175px;
   margin-bottom: 30px;
 }
+.contact-form-foot {
+  background-color: var(--color-content-white);
+  border-radius: 25px;
+  padding: 40px 70px;
+}
+
+@media (max-width: 1200px) {
+  .contact-form-foot {
+    padding: 36px 55px;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-form-foot {
+    padding: 32px 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-form-foot {
+    padding: 28px 25px;
+    border-radius: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .contact-form-foot {
+    padding: 24px 18px;
+  }
+}
+
+.contact-form-foot .ibt-btn-outline {
+  outline: none;
+}
+
+.contact-form-foot .ibt-btn-outline i {
+  text-indent: 0em;
+}
+
+.contact-form-foot .custom-form {
+  position: relative;
+}
+
+.contact-form-foot .custom-form h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: var(--color-content-black2);
+}
+
+.contact-form-foot .custom-form input,
+.contact-form-foot .custom-form select,
+.contact-form-foot .custom-form textarea {
+  border: 1px solid #ADADAD;
+  border-radius: 20px;
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #898989;
+  padding: 18px;
+}
+
+.contact-form-foot .custom-form textarea {
+  height: 175px;
+  margin-bottom: 30px;
+}
 
 .contact-banner {
   position: relative;
   background-image: url(../images/bg/bg4.png);
   background-repeat: no-repeat;
-  padding: 152px 0 146px;
-  margin: 0 20px;
+  padding: 20px 0 10px;
+  margin: 20px 20px 0;
   border-radius: 25px 25px 0 0;
 }
 @media (max-width: 1366px) {
@@ -38198,7 +38266,7 @@ blockquote {
 .contact-banner-content .title {
   font-size: 80px;
   line-height: 90px;
-  margin-bottom: 0;
+  margin-bottom: 100px;
   font-weight: 400;
   color: var(--color-content-white);
   letter-spacing: -0.03em;
