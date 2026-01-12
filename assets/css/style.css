@@ -6271,18 +6271,6 @@ input[type=submit]:hover {
   white-space: nowrap;
 }
 
-/* .sec-title .sub-title::before {
-  content: "[";
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.sec-title .sub-title::after {
-  content: "]";
-  position: absolute;
-  top: 0;
-  right: 0;
-} */
 
 @media (max-width: 1440px) {
   .sec-title .sub-title {
@@ -19464,10 +19452,11 @@ ul {
   border-radius: 25px;
   object-position: center;
   width: 100%;
+  filter: brightness(0.85);
   transition: filter 0.3s ease;
 }
 .ser-card3:hover > img {
-  filter: blur(3px);
+  filter: brightness(0.6) blur(1.5px);
 }
 .ser-card3 .ser-btn {
   right: 10px;
