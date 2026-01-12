@@ -38191,7 +38191,7 @@ blockquote {
 }
 
 .contact-form-foot .custom-form textarea {
-  height: 175px;
+  height: 150px;
   margin-bottom: 30px;
 }
 
@@ -38199,28 +38199,52 @@ blockquote {
   position: relative;
   background-image: url(../images/bg/bg4.png);
   background-repeat: no-repeat;
-  padding: 20px 0 10px;
+  padding: 28px 0 28px;
   margin: 20px 20px 0;
   border-radius: 25px 25px 0 0;
 }
 @media (max-width: 1366px) {
+  .contact-form-foot .custom-form textarea {
+  height: 102px;
+  margin-bottom: 20px;
+}
   .contact-banner {
-    padding: 152px 27px 146px;
+    padding: 70px 27px 70px;
   }
 }
 @media (max-width: 1201px) {
+  .contact-form-foot .custom-form textarea {
+  height: 92px;
+  margin-bottom: 20px;
+}
   .contact-banner {
-    padding: 102px 27px 146px;
+    padding: 60px 27px 70px;
   }
 }
 @media (max-width: 1025px) {
+  .contact-form-foot .custom-form textarea {
+  height: 82px;
+  margin-bottom: 20px;
+}
   .contact-banner {
-    padding: 80px 27px 111px;
+    padding: 80px 27px 60px;
   }
 }
 @media (max-width: 577px) {
+  .contact-form-foot .custom-form h2{
+    font-size: 28px;
+  }
+  .contact-form-foot .custom-form input,
+.contact-form-foot .custom-form select,
+.contact-form-foot .custom-form textarea{
+  height: 30px;
+}
+  .contact-form-foot .custom-form textarea {
+  height: 62px;
+  margin-bottom: 20px;
+}
   .contact-banner {
-    padding: 80px 27px 92px;
+    padding: 20px 24px 10px;
   }
 }
 .contact-banner::before {
@@ -38275,18 +38299,21 @@ blockquote {
   .contact-banner-content .title {
     font-size: 58px;
     line-height: 68px;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 769px) {
   .contact-banner-content .title {
     font-size: 40px;
     line-height: 48px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 480px) {
   .contact-banner-content .title {
     font-size: 34px;
     line-height: 44px;
+    margin-bottom: 20px;
   }
 }
 
