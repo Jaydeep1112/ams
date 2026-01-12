@@ -6267,6 +6267,11 @@ input[type=submit]:hover {
   top: 0;
   right: 0;
 }
+.sec-title .sub-text {
+  display: inline-block;
+  text-indent: 0.5em;       
+  padding-right: 0.7em; 
+}
 @media (max-width: 1440px) {
   .sec-title .sub-title {
     margin-bottom: 15px;
