@@ -788,35 +788,71 @@ var GsapAnimations = {
   // =====================================
   // SUBTITLE ANIMATION
   // =====================================
-  animateSubtitles: function () {
-    const subtitles = document.querySelectorAll(".sec-title .sub-title");
+  // animateSubtitles: function () {
+  //   const subtitles = document.querySelectorAll(".sec-title .sub-title");
 
-    subtitles.forEach(function (sub) {
-      const text = sub.textContent.trim();
-      sub.innerHTML = '<span class="sub-text">' + text + "</span>";
-      const innerSpan = sub.querySelector(".sub-text");
+  //   subtitles.forEach(function (sub) {
+  //     const text = sub.textContent.trim();
+  //     sub.innerHTML = '<span class="sub-text">' + text + "</span>";
+  //     const innerSpan = sub.querySelector(".sub-text");
 
-      gsap.set(innerSpan, {
-      width: 0,
-      display: "inline-block",
-      whiteSpace: "nowrap",  
-      overflow: "hidden",
+  //     gsap.set(innerSpan, {
+  //     width: 0,
+  //     display: "inline-block",
+  //     whiteSpace: "nowrap",  
+  //     overflow: "hidden",
       
-      });
+  //     });
 
-      gsap.to(innerSpan, {
-        width: innerSpan.scrollWidth,
-        duration: 1.2,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: sub.closest(".sec-title"),
-          start: "top 90%",
-          toggleActions: "play none none none",
-        },
-      });
+  //     gsap.to(innerSpan, {
+  //       width: innerSpan.scrollWidth,
+  //       duration: 1.2,
+  //       ease: "power2.out",
+  //       scrollTrigger: {
+  //         trigger: sub.closest(".sec-title"),
+  //         start: "top 90%",
+  //         toggleActions: "play none none none",
+  //       },
+  //     });
+  //   });
+  // },
+
+  animateSubtitles: function () {
+  const subtitles = document.querySelectorAll(".sec-title .sub-title");
+
+  subtitles.forEach(sub => {
+
+    if (sub.classList.contains("gsap-done")) return;
+    sub.classList.add("gsap-done");
+
+    const text = sub.textContent.trim();
+
+    sub.innerHTML = `
+      <span class="bracket">[</span>
+      <span class="reveal">${text}</span>
+      <span class="bracket">]</span>
+    `;
+
+    const reveal = sub.querySelector(".reveal");
+
+    // hide text using clip-path (NOT width)
+    gsap.set(reveal, {
+      clipPath: "inset(0 100% 0 0)"
     });
-  },
 
+    gsap.to(reveal, {
+      clipPath: "inset(0 0% 0 0)",
+      duration: 1.2,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: sub.closest(".sec-title"),
+        start: "top 90%",
+        toggleActions: "play none none none"
+      }
+    });
+  });
+}
+,
   // =====================================
   // HEADING ANIMATION
   // =====================================

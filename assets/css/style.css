@@ -6255,7 +6255,23 @@ input[type=submit]:hover {
   overflow: hidden;
   padding: 0 8px;
 }
-.sec-title .sub-title::before {
+.sec-title .sub-title {
+  display: inline-grid;
+  grid-template-columns: auto max-content auto;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.sec-title .bracket {
+  flex-shrink: 0;
+}
+
+.sec-title .reveal {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* .sec-title .sub-title::before {
   content: "[";
   position: absolute;
   top: 0;
@@ -6266,12 +6282,8 @@ input[type=submit]:hover {
   position: absolute;
   top: 0;
   right: 0;
-}
-.sec-title .sub-text {
-  display: inline-block;
-  text-indent: 0.5em;       
-  padding-right: 0.7em; 
-}
+} */
+
 @media (max-width: 1440px) {
   .sec-title .sub-title {
     margin-bottom: 15px;
