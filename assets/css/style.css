@@ -38197,9 +38197,9 @@ blockquote {
 
 .contact-banner {
   position: relative;
-  /* background-image: url(../images/bg/bg4.png); */
-  background-image: linear-gradient(to left bottom, #f37021, #e34353, #b63373, #76377e, #2e366f);
+  background-image: url(../images/contact-bg.jpeg);
   background-repeat: no-repeat;
+ 
   padding: 28px 0 28px;
   margin: 20px 20px 0;
   border-radius: 25px 25px 0 0;
