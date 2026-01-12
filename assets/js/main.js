@@ -801,7 +801,7 @@ var GsapAnimations = {
       display: "inline-block",
       whiteSpace: "nowrap",  
       overflow: "hidden",
-      padding: "0 10px"
+      padding: "0 10px 0 0"
       });
 
       gsap.to(innerSpan, {
