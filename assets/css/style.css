@@ -1,11 +1,4 @@
 @charset "UTF-8";
-/**
- * Template Name: Aiero | AI Agency & Technology HTML Template
- * Description: AI Agency, tech startup, chat bot, data science, digital agency, consulting, IT solutions, voiceover, video voiceover, robotics, science, industry, machine learning, neural network or other modern technology business template.
- * Version: 1.1.0
- * Author: ib-thems
- * Author https://themeforest.net/user/ib-themes
- */
 .ibt-link-hover a {
   position: relative;
 }
@@ -1759,8 +1752,8 @@ textarea:-ms-input-placeholder {
     Section Separation 
 ==========================*/
 .ibt-section-gap {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 130px;
+  padding-bottom: 150px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .ibt-section-gap {
@@ -6310,11 +6303,11 @@ input[type=submit]:hover {
   }
 }
 .sec-title p {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 30px;
   font-size: 16px;
   color: var(--color-content-black2);
-  margin: 30px 0 0;
+  margin: 18px 0 0;
   letter-spacing: 0;
 }
 
@@ -13187,7 +13180,7 @@ ul {
 
 .hero-sec-info2 {
   position: relative;
-  margin-top: 360px;
+  margin-top: 300px;
 }
 @media (max-width: 1440px) {
   .hero-sec-info2 {
@@ -24760,7 +24753,7 @@ ul {
 
 .feature-card {
   position: relative;
-  padding-right: 33px;
+  padding-right: 28px;
   margin-bottom: 40px;
 }
 .industry-icon {
@@ -38578,7 +38571,7 @@ blockquote {
   }
 }
 .contact-content2 .sec-title {
-  margin-bottom: 73px;
+  margin-bottom: 130px;
   max-width: 558px;
 }
 @media (max-width: 769px) {
