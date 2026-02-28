@@ -8696,7 +8696,7 @@ input[type=submit]:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.menu-style1 > ul > li > a::before {
+.menu-style1 > ul > li.has-dropdown > a::before {
   content: "";
   position: absolute;
   bottom: 15px;
@@ -23186,7 +23186,7 @@ ul {
   font-weight: 400;
   line-height: 35px;
   color: var(--color-content-white);
-  margin-bottom: 9px;
+  margin-bottom: 20px;
   font-family: var(--font-secondary);
   letter-spacing: -0.03em;
   max-width: 308px;
@@ -27330,8 +27330,8 @@ ul {
   position: relative;
 }
 .about-title5 .sub-title {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 30px;
   color: var(--color-content-black2);
   display: inline-block;
@@ -27342,7 +27342,7 @@ ul {
 }
 .about-content5 p {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 30px;
   margin-bottom: 29px;
   color: var(--color-content-black2);
@@ -27799,7 +27799,7 @@ ul {
   -webkit-text-stroke-width: 2px;
   -webkit-background-clip: text;
   background-image: -webkit-linear-gradient(348deg, #8258c8 0%, #2c84c8 100%);
-  background-image: linear-gradient(102deg, #8258c8 0%, #2c84c8 100%);
+ background-image: linear-gradient(102deg, #F47B20 0%, #1F2F6F 100%);
 }
 @media (max-width: 1440px) {
   .about-content9 .title {
@@ -31693,7 +31693,7 @@ ul {
   }
 }
 .page-content .title {
-  font-size: 80px;
+  font-size: 55px;
   line-height: 90px;
   font-weight: 400;
   color: var(--color-content-white);
@@ -37267,7 +37267,7 @@ blockquote {
   }
 }
 .choose-us-sec2 .sec-title {
-  max-width: 989px;
+  max-width: 1020px;
 }
 @media (max-width: 1201px) {
   .choose-us-sec2 .sec-title {
@@ -37294,6 +37294,7 @@ blockquote {
 .choose-block {
   position: relative;
   padding-left: 116px;
+  padding-bottom: 30px;
 }
 @media (max-width: 1025px) {
   .choose-block {
@@ -39838,4 +39839,31 @@ blockquote {
 .text-black {
   color: var(--color-heading) !important;
 }
+.circle-list {
+    list-style-type: circle;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.three-col-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 40px;
+}
 
+.three-col-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+@media (max-width: 991px) {
+    .three-col-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .three-col-list {
+        grid-template-columns: 1fr;
+    }
+}
