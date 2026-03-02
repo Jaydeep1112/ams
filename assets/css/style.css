@@ -6234,7 +6234,7 @@ input[type=submit]:hover {
  */
 .sec-title {
   position: relative;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
   overflow: hidden;
 }
 .sec-title .sub-title {
@@ -26904,7 +26904,7 @@ ul {
   font-weight: 600;
 }
 .about-info2 p:nth-child(2) {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .about-us-sec3 {
@@ -37294,7 +37294,7 @@ blockquote {
 .choose-block {
   position: relative;
   padding-left: 116px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 @media (max-width: 1025px) {
   .choose-block {
