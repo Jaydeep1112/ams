@@ -9465,6 +9465,7 @@ input[type=submit]:hover {
 .sticky-active.is-sticky.v3 .menu-style1 > ul > li > .active,
 .sticky-active.is-sticky.v9 .menu-style1 > ul > li > .active {
   background-color: var(--color-surface-dark-2);
+  color: var(--color-content-white);
 }
 /* .sticky-active.is-sticky.v3 .header-logo a img,
 .sticky-active.is-sticky.v9 .header-logo a img {
