@@ -8716,7 +8716,8 @@ input[type=submit]:hover {
   transition: all 300ms ease;
 }
 .menu-style1 > ul > li > a:hover {
-  background: #f0f2f4;
+  background: #F37021;
+  color: #fff;
 }
 .menu-style1 > ul > li > a:hover .menu-item {
   -webkit-transform: translateY(-38px);
@@ -8730,7 +8731,7 @@ input[type=submit]:hover {
 }
 .menu-style1 > ul > li > .active,
 .menu-style1 > ul > li .active2 {
-  background-color: var(--color-heading);
+  background-color: #F37021;
   color: var(--color-content-white);
 }
 .menu-style1 > ul > li > .active::before,
@@ -8740,7 +8741,7 @@ input[type=submit]:hover {
 }
 .menu-style1 > ul > li > .active:hover,
 .menu-style1 > ul > li .active2:hover {
-  background-color: var(--color-heading);
+  background-color: #F37021;
 }
 
 .main-menu {
@@ -9464,7 +9465,7 @@ input[type=submit]:hover {
 }
 .sticky-active.is-sticky.v3 .menu-style1 > ul > li > .active,
 .sticky-active.is-sticky.v9 .menu-style1 > ul > li > .active {
-  background-color: var(--color-surface-dark-2);
+  background-color: #F37021;
   color: var(--color-content-white);
 }
 /* .sticky-active.is-sticky.v3 .header-logo a img,
@@ -30615,6 +30616,7 @@ ul {
 
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  border-radius: 10px;
   max-height: 100px;
   object-fit: contain;
 }
