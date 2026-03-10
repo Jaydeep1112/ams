@@ -13174,6 +13174,7 @@ ul {
 @media (max-width: 390px) {
   .hero-text2 {
     margin: 0 10px;
+    top: 35%;
   }
 }
 .hero-text2 .btn-style1 img {
@@ -13298,7 +13299,7 @@ ul {
 }
 @media (max-width: 390px) {
   .hero-content2 {
-    height: 804px;
+    height: 604px;
   }
 }
 .hero-content2 > img {
