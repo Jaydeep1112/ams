@@ -13207,7 +13207,7 @@ ul {
 .hero-sec-info2 .title {
   font-size: 80px;
   line-height: 90px;
-  font-weight: 400;
+  font-weight: bold;
   margin-bottom: 20px;
   color: var(--color-content-white);
   max-width: 1027px;
