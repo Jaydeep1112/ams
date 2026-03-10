@@ -13145,7 +13145,7 @@ ul {
 
 .hero-text2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
   width: 100%;
   z-index: 9999;
@@ -13211,7 +13211,8 @@ ul {
   font-weight: bold;
   margin-bottom: 20px;
   color: var(--color-content-white);
-  max-width: 1027px;
+  /* max-width: 1027px; */
+  text-align: center;
   letter-spacing: -0.03em;
 }
 @media (max-width: 1440px) {
@@ -13260,7 +13261,8 @@ ul {
   line-height: 26px;
   margin-bottom: 41px;
   color: var(--color-content-white);
-  max-width: 600px;
+  /* max-width: 600px; */
+  text-align: center;
 }
 @media (max-width: 769px) {
   .hero-sec-info2 p {
