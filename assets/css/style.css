@@ -8656,7 +8656,7 @@ input[type=submit]:hover {
 }
 
 .menu-style1 {
-  margin-left: 24px;
+  margin-left: 18px;
 }
 @media (max-width: 1201px) {
   .menu-style1 {
@@ -23421,8 +23421,8 @@ ul {
 
 .cross {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 15px;
+  right: 15px;
 }
 
 .ser-content22 {
@@ -24837,24 +24837,7 @@ ul {
   background-color:  #F37021;
   transition: 0.3s ease;
 }
-.icon-box{
-  border: 2px solid #F37021;
-  border-radius: 10px;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.industry-item:hover .icon-box {
-  background-color: #F37021; 
-  border-color: #F37021;
-}
-
-.industry-item:hover .industry-icon {
-  background-color: #ffffff; 
-}
 .about-icon {
     display: flex;
     align-items: center;
@@ -24889,7 +24872,26 @@ ul {
     transform: scale(1.15);
     box-shadow: 0 8px 20px rgba(243,112,33,0.25);
 }
+.icon-box{
+  border: 2px solid #F37021;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+/* ✅ Hover on FULL CARD */
+.feature-card:hover .icon-box {
+  background-color: #F37021;
+  border-color: #F37021;
+}
+
+/* Icon turns white */
+.feature-card:hover .industry-icon {
+  background-color: #ffffff;
+}
 @media (max-width: 1366px) {
   .feature-card {
     padding-right: 26px;
@@ -32636,7 +32638,16 @@ ul {
   position: relative;
   background-image: url(../images/ams-aboutus/about-header-bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  padding: 217px 0 235px;
+  margin: 21px 20px 0;
+  border-radius: 28px;
+}
+.page-banner112 {
+  position: relative;
+  background-image: url(../images/services-page/services-header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   padding: 217px 0 235px;
   margin: 21px 20px 0;
   border-radius: 28px;
