@@ -29,7 +29,9 @@
       -ms-transform: scaleX(1);
           transform: scaleX(1);
 }
-
+.white-color{
+  color: #fff !important;
+}
 .ibt-separator {
   display: block;
   height: 1px;
@@ -32580,7 +32582,7 @@ ul {
 
 .page-banner11 {
   position: relative;
-  background-image: url(../images/bg/page1-11.png);
+  background-image: url(../images/ams-aboutus/about-header-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 217px 0 235px;
