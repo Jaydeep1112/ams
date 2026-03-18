@@ -24877,6 +24877,18 @@ ul {
 
     transition: all 0.3s ease;
 }
+.feature-card:hover {
+    border-color: #e5e5e5;
+}
+
+.about-icon {
+    transition: all 0.35s ease;
+}
+
+.feature-card:hover .about-icon {
+    transform: scale(1.15);
+    box-shadow: 0 8px 20px rgba(243,112,33,0.25);
+}
 
 @media (max-width: 1366px) {
   .feature-card {
