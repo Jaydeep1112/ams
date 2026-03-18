@@ -24813,6 +24813,22 @@ ul {
   mask-image: url("/assets/images/home-serv-icon/transference.png");
 }
 
+.icon-honesty {
+  -webkit-mask-image: url("/assets/images/ams-aboutus/honesty.png");
+  mask-image: url("/assets/images/ams-aboutus/honesty.png");
+}
+.icon-innovation {
+  -webkit-mask-image: url("/assets/images/ams-aboutus/innovation.png");
+  mask-image: url("/assets/images/ams-aboutus/innovation.png");
+}
+.icon-key {
+  -webkit-mask-image: url("/assets/images/ams-aboutus/key.png");
+  mask-image: url("/assets/images/ams-aboutus/key.png");
+}
+.icon-tm {
+  -webkit-mask-image: url("/assets/images/ams-aboutus/time-management.png");
+  mask-image: url("/assets/images/ams-aboutus/time-management.png");
+}
 .icon-manufacturing {
   -webkit-mask-image: url("/assets/images/home-serv-icon/manufacturing.png");
   mask-image: url("/assets/images/home-serv-icon/manufacturing.png");
@@ -24839,6 +24855,29 @@ ul {
 .industry-item:hover .industry-icon {
   background-color: #ffffff; 
 }
+.about-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+    background-color: #F37021;
+    border-radius: 50%;
+
+    -webkit-mask-size: 60%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+
+    mask-size: 70%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+    transition: all 0.3s ease;
+}
+
 @media (max-width: 1366px) {
   .feature-card {
     padding-right: 26px;
@@ -24857,6 +24896,7 @@ ul {
   width: 83px;
   height: 90px;
 }
+
 .feature-card .title {
   font-size: 16px;
   line-height: 1.25;
