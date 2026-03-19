@@ -10565,7 +10565,7 @@ input[type=submit]:hover {
 }
 .footer-box p,
 .footer-box span {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 24px;
   display: inline-block;
@@ -10575,7 +10575,6 @@ input[type=submit]:hover {
 .footer-box p a,
 .footer-box span a {
   color: #F37021;
-  text-decoration: underline;
 }
 
 .footer-style2 {
@@ -10611,15 +10610,14 @@ input[type=submit]:hover {
   top: 0;
   left: 0;
   width: 100%;
-  height: 466px;
+  /* height: 466px; */
   background-image: url(../images/layers/eclips8.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .footer-style2 .footer-box {
   position: relative;
-  border-top: 1px solid #CBCBCB;
-  padding: 20px 0 30px;
+  padding: 30px 0 30px;
 }
 .footer-style2 .footer-botom {
   padding-bottom: 0;
@@ -32060,9 +32058,9 @@ ul {
 
 .page-banner3 {
   position: relative;
-  background-image: url(../images/bg/page1-3.png);
+  background-image: url(../images/career-header-bg.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   padding: 217px 0 235px;
   margin: 21px 20px 0;
   border-radius: 28px;
@@ -32070,21 +32068,25 @@ ul {
 @media (max-width: 769px) {
   .page-banner3 {
     padding: 125px 0 178px;
+    background-size: cover;
   }
 }
 @media (max-width: 577px) {
   .page-banner3 {
     padding: 123px 0 196px;
+    background-size: cover;
   }
 }
 @media (max-width: 480px) {
   .page-banner3 {
     padding: 114px 0 160px;
+    background-size: cover;
   }
 }
 @media (max-width: 480px) {
   .page-banner3 {
     padding: 81px 0 132px;
+
   }
 }
 .page-banner3::before {
@@ -32396,9 +32398,9 @@ ul {
 
 .page-banner9 {
   position: relative;
-  background-image: url(../images/bg/page1-9.png);
+  background-image: url(../images/contact-us-header-bgf.jpg.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   padding: 217px 0 235px;
   margin: 21px 20px 0;
   border-radius: 28px;
@@ -32406,21 +32408,25 @@ ul {
 @media (max-width: 769px) {
   .page-banner9 {
     padding: 125px 0 178px;
+    background-size: cover;
   }
 }
 @media (max-width: 577px) {
   .page-banner9 {
     padding: 123px 0 196px;
+    background-size: cover;
   }
 }
 @media (max-width: 480px) {
   .page-banner9 {
     padding: 114px 0 160px;
+    background-size: cover;
   }
 }
 @media (max-width: 480px) {
   .page-banner9 {
     padding: 81px 0 132px;
+    background-size: cover;
   }
 }
 .page-banner9::before {
@@ -38159,7 +38165,7 @@ blockquote {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
   
 }
 .social-icon {
@@ -38734,10 +38740,10 @@ blockquote {
   margin-right: 0;
 }
 .contact-content2 .social-icon li a {
-  color: var(--color-content-black2);
+  color: #ffffff;
 }
 .contact-content2 .social-icon li a:hover {
-  color: #999999;
+  color: #f37021;
 }
 
 .call-center2 {
