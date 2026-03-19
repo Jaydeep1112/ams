@@ -23084,7 +23084,7 @@ ul {
   position: relative;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--color-content-black2);
   margin: 0;
   padding-left: 30px;
@@ -27458,11 +27458,11 @@ ul {
   position: relative;
 }
 .about-content5 p {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 30px;
-  margin-bottom: 29px;
-  color: var(--color-content-black2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    color: var(--color-content-black2);
 }
 .about-content5 p span {
   font-weight: 700;
