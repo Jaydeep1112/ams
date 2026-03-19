@@ -451,7 +451,7 @@ input:-webkit-autofill:active {
 
 .container2 {
   max-width: 1895px;
-  padding: 0 15px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -17775,7 +17775,6 @@ ul {
 
 .googel-map {
   position: relative;
-  margin-bottom: 31px;
 }
 .googel-map::before {
   content: "";
@@ -17788,6 +17787,9 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+}
+.container2 iframe{
+  border-radius: 0 !important;
 }
 @media (max-width: 1440px) {
   .googel-map::before {
@@ -38757,6 +38759,7 @@ blockquote {
   margin-bottom: 0;
   font-family: var(--font-secondary);
   margin-bottom: 21px;
+  letter-spacing: 0.0125rem;
 }
 .call-center2 .nmbr,
 .call-center2 .gmail,
