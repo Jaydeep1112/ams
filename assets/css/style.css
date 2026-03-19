@@ -19516,7 +19516,7 @@ ul {
   line-height: 34px;
   font-weight: 500;
   display: inline-block;
-  color: var(--color-content-white);
+  color: var(--color-heading);
   border-bottom: 1px solid var(--color-content-white);
   padding-right: 23px;
   overflow: hidden;
@@ -19524,7 +19524,7 @@ ul {
   transition: all 300ms ease;
 }
 .ser-btn3:hover {
-  color: var(--color-content-white);
+  color: var(--color-secondary);
   padding: 0 0 0 23px;
 }
 .ser-btn3:hover::before {
@@ -23198,12 +23198,15 @@ ul {
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   overflow: hidden;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 1rem;
+  border-radius: 10px;
 }
 .ser-content21 .title {
   font-size: 25px;
   font-weight: 600;
   line-height: 35px;
-  color: var(--color-content-white);
+  color: var(--color-heading);
   margin-bottom: 20px;
   font-family: var(--font-secondary);
   letter-spacing: -0.03em;
@@ -23222,7 +23225,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
-  color: var(--color-content-white);
+  color: var(--color-heading);
   margin-bottom: 16px;
 }
 
@@ -23247,18 +23250,18 @@ ul {
   background-size: cover;
 }
 .ser-card21.v1 .ser-content21 .title {
-  color: var(--color-content-white);
-}
-.ser-card21.v1 .ser-content21 p {
-  color: var(--color-content-white);
-}
-.ser-card21.v1 .ser-content21 .ser-btn3 {
-  color: var(--color-content-white);
-  border-color: var(--color-content-white);
-}
-.ser-card21.v1 .ibt-btn {
   color: var(--color-heading);
 }
+.ser-card21.v1 .ser-content21 p {
+  color: var(--color-heading);
+}
+.ser-card21.v1 .ser-content21 .ser-btn3 {
+  color: var(--color-heading);
+  border-color: var(--color-content-white);
+}
+/* .ser-card21.v1 .ibt-btn {
+  color: var(--color-content-white);
+} */
 
 .ser-card21.v2 {
   background-color: #aa8ee0;
