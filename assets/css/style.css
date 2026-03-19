@@ -23329,7 +23329,39 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.ser-card21.v7::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/spl-services/c-suite.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ser-card21.v8::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/spl-services/hrsaas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ser-card21.v9::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/spl-services/strat-adv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .service-sec22 {
   position: relative;
 }
@@ -32201,9 +32233,9 @@ ul {
 
 .page-banner6 {
   position: relative;
-  background-image: url(../images/bg/page1-6.png);
+  background-image: url(../images/services-page/spl-serive-header-bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   padding: 217px 0 235px;
   margin: 21px 20px 0;
   border-radius: 28px;
@@ -32211,21 +32243,25 @@ ul {
 @media (max-width: 769px) {
   .page-banner6 {
     padding: 125px 0 178px;
+    background-size: cover;
   }
 }
 @media (max-width: 577px) {
   .page-banner6 {
     padding: 123px 0 196px;
+    background-size: cover;
   }
 }
 @media (max-width: 480px) {
   .page-banner6 {
     padding: 114px 0 160px;
+    background-size: cover;
   }
 }
 @media (max-width: 480px) {
   .page-banner6 {
     padding: 81px 0 132px;
+    background-size: cover;
   }
 }
 .page-banner6::before {
