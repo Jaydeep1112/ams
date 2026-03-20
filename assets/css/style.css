@@ -13194,7 +13194,7 @@ ul {
 
 .hero-sec-info2 {
   position: relative;
-  margin-top: 300px;
+  margin-top: 270px;
 }
 @media (max-width: 1440px) {
   .hero-sec-info2 {
@@ -13223,7 +13223,6 @@ ul {
   margin-bottom: 20px;
   color: var(--color-content-white);
   /* max-width: 1027px; */
-  text-align: center;
   letter-spacing: -0.03em;
 }
 @media (max-width: 1440px) {
@@ -13270,10 +13269,9 @@ ul {
 .hero-sec-info2 p {
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 41px;
+  margin-bottom: 30px;
   color: var(--color-content-white);
-  /* max-width: 600px; */
-  text-align: center;
+  max-width: 600px;
 }
 @media (max-width: 769px) {
   .hero-sec-info2 p {
@@ -23078,7 +23076,7 @@ ul {
 
 .ser-detail-list {
   position: relative;
-  margin-top: 35px;
+  margin-bottom: 1rem;
 }
 .ser-detail-list li {
   position: relative;
@@ -23477,13 +23475,13 @@ ul {
 
 .cross {
   position: absolute;
-  bottom: 15px;
+  top: 15px;
   right: 15px;
 }
 
 .ser-content22 {
   background-color: var(--color-surface-dark-2);
-  padding: 107px 75px 146px;
+  padding: 146px 75px 107px;
   border-radius: 25px;
 }
 @media (max-width: 1440px) {
@@ -27015,13 +27013,13 @@ ul {
 }
 .about-info2 p {
   font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 30px;
+  line-height: 1.7;
+  margin-bottom: 1rem;
   color: var(--color-content-black2);
-  font-weight: 600;
+  font-weight: 500;
 }
 .about-info2 p:nth-child(2) {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .about-us-sec3 {
@@ -27879,8 +27877,8 @@ ul {
 }
 .about-info9 p {
   font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 30px;
+  line-height: 1.7;
+  margin-bottom: 1rem;
   color: var(--color-content-black2);
   font-weight: 500;
 }
@@ -31811,9 +31809,9 @@ ul {
   }
 }
 .page-content .title {
-  font-size: 55px;
+  font-size: 48px;
   line-height: 90px;
-  font-weight: 400;
+  font-weight: bold;
   color: var(--color-content-white);
   letter-spacing: -0.03em;
   margin-bottom: 0;
@@ -40010,4 +40008,7 @@ blockquote {
     .three-col-list {
         grid-template-columns: 1fr;
     }
+}
+.contact-content2 .sec-title .sub-title{
+  text-transform:uppercase ;
 }
