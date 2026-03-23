@@ -38356,8 +38356,8 @@ blockquote {
   position: relative;
   background-image: url(../images/contact-bg.jpg);
   background-repeat: no-repeat;
- 
-  padding: 28px 0 28px;
+/*  
+  padding: 28px 0 28px; */
   margin: 20px 20px 0;
   border-radius: 25px 25px 0 0;
 }
