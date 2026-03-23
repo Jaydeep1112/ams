@@ -6370,7 +6370,23 @@ input[type=submit]:hover {
 .title.animated-heading .letter {
   display: inline-block;
 }
+.animated-heading {
+  display: block;
+  width: 100%;
+}
 
+.animated-heading .word {
+  display: inline-block;
+}
+
+.animated-heading .letter {
+  display: inline-block;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+.contact-content2 {
+  overflow: hidden;
+}
 /**
  * Template Name: Aiero | AI Agency & Technology HTML Template
  * Description: AI Agency, tech startup, chat bot, data science, digital agency, consulting, IT solutions, voiceover, video voiceover, robotics, science, industry, machine learning, neural network or other modern technology business template.
@@ -38338,13 +38354,14 @@ blockquote {
 
 .contact-banner {
   position: relative;
-  background-image: url(../images/contact-bg.jpeg);
+  background-image: url(../images/contact-bg.jpg);
   background-repeat: no-repeat;
  
   padding: 28px 0 28px;
   margin: 20px 20px 0;
   border-radius: 25px 25px 0 0;
 }
+
 @media (max-width: 1366px) {
   .contact-form-foot .custom-form textarea {
   height: 102px;
