@@ -2183,6 +2183,52 @@ document.addEventListener("DOMContentLoaded", function () {
   IsotopeFilter.init();
 });
 
+document.getElementById("consultForm").addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const submitBtn = form.querySelector("button[type='submit']");
+
+    submitBtn.disabled = true;
+    submitBtn.querySelector("span").textContent = "Sending...";
+
+    const payload = {
+        fromName: "AMS Human Resources Website",
+        subject: form.subject.value,
+        fields: [
+            { label: "Full Name", value: form.fullname.value },
+            { label: "Email",     value: form.email.value },
+            { label: "Phone",     value: form.phone.value },
+            { label: "Subject",   value: form.subject.value },
+            { label: "Message",   value: form.message.value }
+        ]
+    };
+
+    try {
+        const response = await fetch("assets/send-mail.php", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        });
+
+        const result = await response.json();
+        console.log("Server response:", result);
+
+        if (result.status === "success") {
+            alert("Your message has been sent! We'll get back to you shortly.");
+            form.reset();
+        } else {
+            console.error("Mail error:", result.message);
+            alert("Failed to send message: " + result.message);
+        }
+    } catch (err) {
+        console.error("Fetch error:", err);
+        alert("Something went wrong. Please try again.");
+    } finally {
+        submitBtn.disabled = false;
+        submitBtn.querySelector("span").textContent = "Send message";
+    }
+});
 
 /**
  * ============================

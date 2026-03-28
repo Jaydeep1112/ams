@@ -107,7 +107,7 @@
                     <li><a href="https://www.facebook.com/amshrpl" title=""><i class="fab fa-facebook-f"></i></a></li>
                 </ul>
                 <a href="contact-us.html" title="" class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
-                    <span>Get in Touch</span>
+                    <span class="text-white">Get in Touch</span>
                 </a>
             </div>
         </div>
@@ -473,15 +473,19 @@
                     </div>
                     <div class="col-lg-6">
                     <div class="contact-form-foot v2">
-                        <form action="#" method="post" class="custom-form">
+                        <form id="consultForm"  class="custom-form">
                             <h2>Schedule a Consultation.</h2>
-                            <input type="text" id="name" name="name" placeholder="Full name" required>
-                            <input type="email" id="email" name="email" placeholder="Email" required>
-                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+                            <input type="hidden" name="form_type" value="consult">
+
+                            <input type="text" name="fullname" placeholder="Full name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="text" name="phone" placeholder="Phone" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                            <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+
                             <button type="submit" class="ibt-btn ibt-btn-outline">
                                 <span>Send message</span>
-                                <i class="icon-arrow-top"></i>
                             </button>
                         </form>
                     </div>
@@ -503,7 +507,7 @@
                             <li><a href="https://www.facebook.com/amshrpl" title=""><i class="fab fa-facebook-f"></i></a></li>     
                         </ul>
                         <p>&copy; 2026. AMS Human Resources. All Rights Reserved.</p>
-                        <span>Terms of use <a href="#">&nbsp;&#9679;&nbsp;Privacy Policy</a></span>
+                        <span><a class="text-white" href="term-of-use.html">Terms of Use</a> <a href="#">&nbsp;&#9679;&nbsp;Privacy Policy</a></span>
                     </div>
                 </div>
             </div>
